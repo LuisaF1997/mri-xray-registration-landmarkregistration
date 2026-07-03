@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# IDE / system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Medical / project data
+data/
+datasets/
+raw/
+processed/
+MRI/
+Xray/
+DICOM/
+dicom/
+*.dcm
+*.nii
+*.nii.gz
+*.nrrd
+*.mha
+*.mhd
+*.mat
+
+# Model files
+*.pt
+*.pth
+*.h5
+*.keras
+checkpoints/
+models/
+
+# Outputs / results
+outputs/
+results/
+runs/
+logs/
+*.log
+
+# Large / temporary files
+*.zip
+*.rar
+*.7z
+*.tmp
